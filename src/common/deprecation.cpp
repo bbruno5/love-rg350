@@ -24,6 +24,7 @@
 
 #include <atomic>
 #include <map>
+#include <stdio.h>
 
 namespace love
 {
