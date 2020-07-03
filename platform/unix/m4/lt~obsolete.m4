@@ -1,0 +1,1 @@
+/opt/gcw0-toolchain/usr/share/aclocal/lt~obsolete.m4

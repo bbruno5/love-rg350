@@ -1,0 +1,1 @@
+/opt/gcw0-toolchain/usr/share/aclocal/ltversion.m4

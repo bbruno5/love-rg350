@@ -1,0 +1,223 @@
+AH_TEMPLATE([LOVE_ENABLE_AUDIO], [])
+if test x"$enable_module_audio" = xyes; then
+    AC_DEFINE([LOVE_ENABLE_AUDIO], [])
+fi
+AM_CONDITIONAL([LOVE_MODULE_AUDIO], [test x$enable_module_audio = xyes])
+
+AH_TEMPLATE([LOVE_ENABLE_DATA], [])
+if test x"$enable_module_data" = xyes; then
+    AC_DEFINE([LOVE_ENABLE_DATA], [])
+fi
+AM_CONDITIONAL([LOVE_MODULE_DATA], [test x$enable_module_data = xyes])
+
+AH_TEMPLATE([LOVE_ENABLE_EVENT], [])
+if test x"$enable_module_event" = xyes; then
+    AC_DEFINE([LOVE_ENABLE_EVENT], [])
+fi
+AM_CONDITIONAL([LOVE_MODULE_EVENT], [test x$enable_module_event = xyes])
+
+AH_TEMPLATE([LOVE_ENABLE_FILESYSTEM], [])
+if test x"$enable_module_filesystem" = xyes; then
+    AC_DEFINE([LOVE_ENABLE_FILESYSTEM], [])
+fi
+AM_CONDITIONAL([LOVE_MODULE_FILESYSTEM], [test x$enable_module_filesystem = xyes])
+
+AH_TEMPLATE([LOVE_ENABLE_FONT], [])
+if test x"$enable_module_font" = xyes; then
+    AC_DEFINE([LOVE_ENABLE_FONT], [])
+fi
+AM_CONDITIONAL([LOVE_MODULE_FONT], [test x$enable_module_font = xyes])
+
+AH_TEMPLATE([LOVE_ENABLE_GRAPHICS], [])
+if test x"$enable_module_graphics" = xyes; then
+    AC_DEFINE([LOVE_ENABLE_GRAPHICS], [])
+fi
+AM_CONDITIONAL([LOVE_MODULE_GRAPHICS], [test x$enable_module_graphics = xyes])
+
+AH_TEMPLATE([LOVE_ENABLE_IMAGE], [])
+if test x"$enable_module_image" = xyes; then
+    AC_DEFINE([LOVE_ENABLE_IMAGE], [])
+fi
+AM_CONDITIONAL([LOVE_MODULE_IMAGE], [test x$enable_module_image = xyes])
+
+AH_TEMPLATE([LOVE_ENABLE_JOYSTICK], [])
+if test x"$enable_module_joystick" = xyes; then
+    AC_DEFINE([LOVE_ENABLE_JOYSTICK], [])
+fi
+AM_CONDITIONAL([LOVE_MODULE_JOYSTICK], [test x$enable_module_joystick = xyes])
+
+AH_TEMPLATE([LOVE_ENABLE_KEYBOARD], [])
+if test x"$enable_module_keyboard" = xyes; then
+    AC_DEFINE([LOVE_ENABLE_KEYBOARD], [])
+fi
+AM_CONDITIONAL([LOVE_MODULE_KEYBOARD], [test x$enable_module_keyboard = xyes])
+
+AH_TEMPLATE([LOVE_ENABLE_LOVE], [])
+if test x"$enable_module_love" = xyes; then
+    AC_DEFINE([LOVE_ENABLE_LOVE], [])
+fi
+AM_CONDITIONAL([LOVE_MODULE_LOVE], [test x$enable_module_love = xyes])
+
+AH_TEMPLATE([LOVE_ENABLE_MATH], [])
+if test x"$enable_module_math" = xyes; then
+    AC_DEFINE([LOVE_ENABLE_MATH], [])
+fi
+AM_CONDITIONAL([LOVE_MODULE_MATH], [test x$enable_module_math = xyes])
+
+AH_TEMPLATE([LOVE_ENABLE_MOUSE], [])
+if test x"$enable_module_mouse" = xyes; then
+    AC_DEFINE([LOVE_ENABLE_MOUSE], [])
+fi
+AM_CONDITIONAL([LOVE_MODULE_MOUSE], [test x$enable_module_mouse = xyes])
+
+AH_TEMPLATE([LOVE_ENABLE_PHYSICS], [])
+if test x"$enable_module_physics" = xyes; then
+    AC_DEFINE([LOVE_ENABLE_PHYSICS], [])
+fi
+AM_CONDITIONAL([LOVE_MODULE_PHYSICS], [test x$enable_module_physics = xyes])
+
+AH_TEMPLATE([LOVE_ENABLE_SOUND], [])
+if test x"$enable_module_sound" = xyes; then
+    AC_DEFINE([LOVE_ENABLE_SOUND], [])
+fi
+AM_CONDITIONAL([LOVE_MODULE_SOUND], [test x$enable_module_sound = xyes])
+
+AH_TEMPLATE([LOVE_ENABLE_SYSTEM], [])
+if test x"$enable_module_system" = xyes; then
+    AC_DEFINE([LOVE_ENABLE_SYSTEM], [])
+fi
+AM_CONDITIONAL([LOVE_MODULE_SYSTEM], [test x$enable_module_system = xyes])
+
+AH_TEMPLATE([LOVE_ENABLE_THREAD], [])
+if test x"$enable_module_thread" = xyes; then
+    AC_DEFINE([LOVE_ENABLE_THREAD], [])
+fi
+AM_CONDITIONAL([LOVE_MODULE_THREAD], [test x$enable_module_thread = xyes])
+
+AH_TEMPLATE([LOVE_ENABLE_TIMER], [])
+if test x"$enable_module_timer" = xyes; then
+    AC_DEFINE([LOVE_ENABLE_TIMER], [])
+fi
+AM_CONDITIONAL([LOVE_MODULE_TIMER], [test x$enable_module_timer = xyes])
+
+AH_TEMPLATE([LOVE_ENABLE_TOUCH], [])
+if test x"$enable_module_touch" = xyes; then
+    AC_DEFINE([LOVE_ENABLE_TOUCH], [])
+fi
+AM_CONDITIONAL([LOVE_MODULE_TOUCH], [test x$enable_module_touch = xyes])
+
+AH_TEMPLATE([LOVE_ENABLE_VIDEO], [])
+if test x"$enable_module_video" = xyes; then
+    AC_DEFINE([LOVE_ENABLE_VIDEO], [])
+fi
+AM_CONDITIONAL([LOVE_MODULE_VIDEO], [test x$enable_module_video = xyes])
+
+AH_TEMPLATE([LOVE_ENABLE_WINDOW], [])
+if test x"$enable_module_window" = xyes; then
+    AC_DEFINE([LOVE_ENABLE_WINDOW], [])
+fi
+AM_CONDITIONAL([LOVE_MODULE_WINDOW], [test x$enable_module_window = xyes])
+
+AH_TEMPLATE([LOVE_ENABLE_BOX2D], [])
+if test x"$enable_library_Box2D" = xyes; then
+    AC_DEFINE([LOVE_ENABLE_BOX2D], [])
+fi
+AM_CONDITIONAL([LOVE_LIBRARY_BOX2D], [test x$enable_library_Box2D = xyes])
+
+AH_TEMPLATE([LOVE_ENABLE_DDSPARSE], [])
+if test x"$enable_library_ddsparse" = xyes; then
+    AC_DEFINE([LOVE_ENABLE_DDSPARSE], [])
+fi
+AM_CONDITIONAL([LOVE_LIBRARY_DDSPARSE], [test x$enable_library_ddsparse = xyes])
+
+AH_TEMPLATE([LOVE_ENABLE_DR_FLAC], [])
+if test x"$enable_library_dr_flac" = xyes; then
+    AC_DEFINE([LOVE_ENABLE_DR_FLAC], [])
+fi
+AM_CONDITIONAL([LOVE_LIBRARY_DR_FLAC], [test x$enable_library_dr_flac = xyes])
+
+AH_TEMPLATE([LOVE_ENABLE_ENET], [])
+if test x"$enable_library_enet" = xyes; then
+    AC_DEFINE([LOVE_ENABLE_ENET], [])
+fi
+AM_CONDITIONAL([LOVE_LIBRARY_ENET], [test x$enable_library_enet = xyes])
+
+AH_TEMPLATE([LOVE_ENABLE_GLAD], [])
+if test x"$enable_library_glad" = xyes; then
+    AC_DEFINE([LOVE_ENABLE_GLAD], [])
+fi
+AM_CONDITIONAL([LOVE_LIBRARY_GLAD], [test x$enable_library_glad = xyes])
+
+AH_TEMPLATE([LOVE_ENABLE_GLSLANG], [])
+if test x"$enable_library_glslang" = xyes; then
+    AC_DEFINE([LOVE_ENABLE_GLSLANG], [])
+fi
+AM_CONDITIONAL([LOVE_LIBRARY_GLSLANG], [test x$enable_library_glslang = xyes])
+
+AH_TEMPLATE([LOVE_ENABLE_LODEPNG], [])
+if test x"$enable_library_lodepng" = xyes; then
+    AC_DEFINE([LOVE_ENABLE_LODEPNG], [])
+fi
+AM_CONDITIONAL([LOVE_LIBRARY_LODEPNG], [test x$enable_library_lodepng = xyes])
+
+AH_TEMPLATE([LOVE_ENABLE_LUA53], [])
+if test x"$enable_library_lua53" = xyes; then
+    AC_DEFINE([LOVE_ENABLE_LUA53], [])
+fi
+AM_CONDITIONAL([LOVE_LIBRARY_LUA53], [test x$enable_library_lua53 = xyes])
+
+AH_TEMPLATE([LOVE_ENABLE_LUASOCKET], [])
+if test x"$enable_library_luasocket" = xyes; then
+    AC_DEFINE([LOVE_ENABLE_LUASOCKET], [])
+fi
+AM_CONDITIONAL([LOVE_LIBRARY_LUASOCKET], [test x$enable_library_luasocket = xyes])
+
+AH_TEMPLATE([LOVE_ENABLE_LZ4], [])
+if test x"$enable_library_lz4" = xyes; then
+    AC_DEFINE([LOVE_ENABLE_LZ4], [])
+fi
+AM_CONDITIONAL([LOVE_LIBRARY_LZ4], [test x$enable_library_lz4 = xyes])
+
+AH_TEMPLATE([LOVE_ENABLE_NOISE1234], [])
+if test x"$enable_library_noise1234" = xyes; then
+    AC_DEFINE([LOVE_ENABLE_NOISE1234], [])
+fi
+AM_CONDITIONAL([LOVE_LIBRARY_NOISE1234], [test x$enable_library_noise1234 = xyes])
+
+AH_TEMPLATE([LOVE_ENABLE_PHYSFS], [])
+if test x"$enable_library_physfs" = xyes; then
+    AC_DEFINE([LOVE_ENABLE_PHYSFS], [])
+fi
+AM_CONDITIONAL([LOVE_LIBRARY_PHYSFS], [test x$enable_library_physfs = xyes])
+
+AH_TEMPLATE([LOVE_ENABLE_STB], [])
+if test x"$enable_library_stb" = xyes; then
+    AC_DEFINE([LOVE_ENABLE_STB], [])
+fi
+AM_CONDITIONAL([LOVE_LIBRARY_STB], [test x$enable_library_stb = xyes])
+
+AH_TEMPLATE([LOVE_ENABLE_TINYEXR], [])
+if test x"$enable_library_tinyexr" = xyes; then
+    AC_DEFINE([LOVE_ENABLE_TINYEXR], [])
+fi
+AM_CONDITIONAL([LOVE_LIBRARY_TINYEXR], [test x$enable_library_tinyexr = xyes])
+
+AH_TEMPLATE([LOVE_ENABLE_UTF8], [])
+if test x"$enable_library_utf8" = xyes; then
+    AC_DEFINE([LOVE_ENABLE_UTF8], [])
+fi
+AM_CONDITIONAL([LOVE_LIBRARY_UTF8], [test x$enable_library_utf8 = xyes])
+
+AH_TEMPLATE([LOVE_ENABLE_WUFF], [])
+if test x"$enable_library_Wuff" = xyes; then
+    AC_DEFINE([LOVE_ENABLE_WUFF], [])
+fi
+AM_CONDITIONAL([LOVE_LIBRARY_WUFF], [test x$enable_library_Wuff = xyes])
+
+AH_TEMPLATE([LOVE_ENABLE_XXHASH], [])
+if test x"$enable_library_xxHash" = xyes; then
+    AC_DEFINE([LOVE_ENABLE_XXHASH], [])
+fi
+AM_CONDITIONAL([LOVE_LIBRARY_XXHASH], [test x$enable_library_xxHash = xyes])
+
+AC_SUBST([LOVE_SUFFIX], [])

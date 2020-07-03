@@ -1,0 +1,1 @@
+/opt/gcw0-toolchain/usr/share/libtool/config/ltmain.sh
