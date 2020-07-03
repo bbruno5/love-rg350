@@ -1,1 +1,2 @@
-# dummy
+modules/sound/lullaby/CoreAudioDecoder.lo: \
+ modules/sound/lullaby/CoreAudioDecoder.cpp

@@ -966,7 +966,7 @@ Type *luax_type(lua_State *L, int idx)
 int luax_resume(lua_State *L, int nargs)
 {
 #if LUA_VERSION_NUM >= 502
-	return lua_resume(L, nullptr, nargs);
+	return lua_resume(L, nullptr, nargs, nullptr);
 #else
 	return lua_resume(L, nargs);
 #endif

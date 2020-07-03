@@ -1408,11 +1408,11 @@ CC = /opt/gcw0-toolchain/usr/bin/mipsel-linux-gcc
 CCDEPMODE = depmode=gcc3
 CFLAGS = -Wall -mips32 -O3 -Wextra -fthread-jumps -fexpensive-optimizations -ffast-math -I/opt/gcw0-toolchain/usr/mipsel-gcw0-linux-uclibc/sysroot/opt/gcw0-toolchain/usr/mipsel-gcw0-linux-uclibc/sysroot/usr/include/lua
 CPP = /opt/gcw0-toolchain/usr/bin/mipsel-linux-gcc -E
-CPPFLAGS = 
-CXX = mipsel-linux-g++
-CXXCPP = mipsel-linux-g++ -E
+CPPFLAGS = -D_GLIBCXX_USE_C99
+CXX = /opt/gcw0-toolchain/usr/bin/mipsel-linux-g++
+CXXCPP = /opt/gcw0-toolchain/usr/bin/mipsel-linux-g++ -E
 CXXDEPMODE = depmode=gcc3
-CXXFLAGS = -g -O2 -std=c++11
+CXXFLAGS =  -std=c++11
 CYGPATH_W = echo
 DEFS = -DHAVE_CONFIG_H
 DEPDIR = .deps

@@ -116,31 +116,31 @@ mipsel-linux-gcc: fatal error: no input files
 compilation terminated.
 configure:4028: $? = 1
 configure:4048: checking whether the C compiler works
-configure:4070: /opt/gcw0-toolchain/usr/bin/mipsel-linux-gcc -Wall -mips32 -O3 -Wextra -fthread-jumps -fexpensive-optimizations -ffast-math -I/opt/gcw0-toolchain/usr/mipsel-gcw0-linux-uclibc/sysroot/opt/gcw0-toolchain/usr/mipsel-gcw0-linux-uclibc/sysroot/usr/include/lua  -L/opt/gcw0-toolchain/usr/mipsel-gcw0-linux-uclibc/sysroot/opt/gcw0-toolchain/usr/mipsel-gcw0-linux-uclibc/sysroot/usr/lib -llua conftest.c  >&5
+configure:4070: /opt/gcw0-toolchain/usr/bin/mipsel-linux-gcc -Wall -mips32 -O3 -Wextra -fthread-jumps -fexpensive-optimizations -ffast-math -I/opt/gcw0-toolchain/usr/mipsel-gcw0-linux-uclibc/sysroot/opt/gcw0-toolchain/usr/mipsel-gcw0-linux-uclibc/sysroot/usr/include/lua -D_GLIBCXX_USE_C99 -L/opt/gcw0-toolchain/usr/mipsel-gcw0-linux-uclibc/sysroot/opt/gcw0-toolchain/usr/mipsel-gcw0-linux-uclibc/sysroot/usr/lib -llua conftest.c  >&5
 configure:4074: $? = 0
 configure:4122: result: yes
 configure:4125: checking for C compiler default output file name
 configure:4127: result: a.out
 configure:4133: checking for suffix of executables
-configure:4140: /opt/gcw0-toolchain/usr/bin/mipsel-linux-gcc -o conftest -Wall -mips32 -O3 -Wextra -fthread-jumps -fexpensive-optimizations -ffast-math -I/opt/gcw0-toolchain/usr/mipsel-gcw0-linux-uclibc/sysroot/opt/gcw0-toolchain/usr/mipsel-gcw0-linux-uclibc/sysroot/usr/include/lua  -L/opt/gcw0-toolchain/usr/mipsel-gcw0-linux-uclibc/sysroot/opt/gcw0-toolchain/usr/mipsel-gcw0-linux-uclibc/sysroot/usr/lib -llua conftest.c  >&5
+configure:4140: /opt/gcw0-toolchain/usr/bin/mipsel-linux-gcc -o conftest -Wall -mips32 -O3 -Wextra -fthread-jumps -fexpensive-optimizations -ffast-math -I/opt/gcw0-toolchain/usr/mipsel-gcw0-linux-uclibc/sysroot/opt/gcw0-toolchain/usr/mipsel-gcw0-linux-uclibc/sysroot/usr/include/lua -D_GLIBCXX_USE_C99 -L/opt/gcw0-toolchain/usr/mipsel-gcw0-linux-uclibc/sysroot/opt/gcw0-toolchain/usr/mipsel-gcw0-linux-uclibc/sysroot/usr/lib -llua conftest.c  >&5
 configure:4144: $? = 0
 configure:4166: result: 
 configure:4188: checking whether we are cross compiling
 configure:4226: result: yes
 configure:4231: checking for suffix of object files
-configure:4253: /opt/gcw0-toolchain/usr/bin/mipsel-linux-gcc -c -Wall -mips32 -O3 -Wextra -fthread-jumps -fexpensive-optimizations -ffast-math -I/opt/gcw0-toolchain/usr/mipsel-gcw0-linux-uclibc/sysroot/opt/gcw0-toolchain/usr/mipsel-gcw0-linux-uclibc/sysroot/usr/include/lua  conftest.c >&5
+configure:4253: /opt/gcw0-toolchain/usr/bin/mipsel-linux-gcc -c -Wall -mips32 -O3 -Wextra -fthread-jumps -fexpensive-optimizations -ffast-math -I/opt/gcw0-toolchain/usr/mipsel-gcw0-linux-uclibc/sysroot/opt/gcw0-toolchain/usr/mipsel-gcw0-linux-uclibc/sysroot/usr/include/lua -D_GLIBCXX_USE_C99 conftest.c >&5
 configure:4257: $? = 0
 configure:4278: result: o
 configure:4282: checking whether we are using the GNU C compiler
-configure:4301: /opt/gcw0-toolchain/usr/bin/mipsel-linux-gcc -c -Wall -mips32 -O3 -Wextra -fthread-jumps -fexpensive-optimizations -ffast-math -I/opt/gcw0-toolchain/usr/mipsel-gcw0-linux-uclibc/sysroot/opt/gcw0-toolchain/usr/mipsel-gcw0-linux-uclibc/sysroot/usr/include/lua  conftest.c >&5
+configure:4301: /opt/gcw0-toolchain/usr/bin/mipsel-linux-gcc -c -Wall -mips32 -O3 -Wextra -fthread-jumps -fexpensive-optimizations -ffast-math -I/opt/gcw0-toolchain/usr/mipsel-gcw0-linux-uclibc/sysroot/opt/gcw0-toolchain/usr/mipsel-gcw0-linux-uclibc/sysroot/usr/include/lua -D_GLIBCXX_USE_C99 conftest.c >&5
 configure:4301: $? = 0
 configure:4310: result: yes
 configure:4319: checking whether /opt/gcw0-toolchain/usr/bin/mipsel-linux-gcc accepts -g
-configure:4339: /opt/gcw0-toolchain/usr/bin/mipsel-linux-gcc -c -g  conftest.c >&5
+configure:4339: /opt/gcw0-toolchain/usr/bin/mipsel-linux-gcc -c -g -D_GLIBCXX_USE_C99 conftest.c >&5
 configure:4339: $? = 0
 configure:4380: result: yes
 configure:4397: checking for /opt/gcw0-toolchain/usr/bin/mipsel-linux-gcc option to accept ISO C89
-configure:4460: /opt/gcw0-toolchain/usr/bin/mipsel-linux-gcc  -c -Wall -mips32 -O3 -Wextra -fthread-jumps -fexpensive-optimizations -ffast-math -I/opt/gcw0-toolchain/usr/mipsel-gcw0-linux-uclibc/sysroot/opt/gcw0-toolchain/usr/mipsel-gcw0-linux-uclibc/sysroot/usr/include/lua  conftest.c >&5
+configure:4460: /opt/gcw0-toolchain/usr/bin/mipsel-linux-gcc  -c -Wall -mips32 -O3 -Wextra -fthread-jumps -fexpensive-optimizations -ffast-math -I/opt/gcw0-toolchain/usr/mipsel-gcw0-linux-uclibc/sysroot/opt/gcw0-toolchain/usr/mipsel-gcw0-linux-uclibc/sysroot/usr/include/lua -D_GLIBCXX_USE_C99 conftest.c >&5
 configure:4460: $? = 0
 configure:4473: result: none needed
 configure:4498: checking whether /opt/gcw0-toolchain/usr/bin/mipsel-linux-gcc understands -c and -o together
@@ -155,7 +155,7 @@ configure:4686: checking for mipsel-linux-ar
 configure:4702: found /opt/gcw0-toolchain/usr/bin/mipsel-linux-ar
 configure:4713: result: mipsel-linux-ar
 configure:4783: checking the archiver (mipsel-linux-ar) interface
-configure:4799: /opt/gcw0-toolchain/usr/bin/mipsel-linux-gcc -c -Wall -mips32 -O3 -Wextra -fthread-jumps -fexpensive-optimizations -ffast-math -I/opt/gcw0-toolchain/usr/mipsel-gcw0-linux-uclibc/sysroot/opt/gcw0-toolchain/usr/mipsel-gcw0-linux-uclibc/sysroot/usr/include/lua  conftest.c >&5
+configure:4799: /opt/gcw0-toolchain/usr/bin/mipsel-linux-gcc -c -Wall -mips32 -O3 -Wextra -fthread-jumps -fexpensive-optimizations -ffast-math -I/opt/gcw0-toolchain/usr/mipsel-gcw0-linux-uclibc/sysroot/opt/gcw0-toolchain/usr/mipsel-gcw0-linux-uclibc/sysroot/usr/include/lua -D_GLIBCXX_USE_C99 conftest.c >&5
 configure:4799: $? = 0
 configure:4801: mipsel-linux-ar cru libconftest.a conftest.o >&5
 configure:4804: $? = 0
@@ -181,7 +181,7 @@ configure:5386: result: yes
 configure:5398: checking for BSD- or MS-compatible name lister (nm)
 configure:5447: result: /opt/gcw0-toolchain/usr/bin/mipsel-linux-nm -B
 configure:5577: checking the name lister (/opt/gcw0-toolchain/usr/bin/mipsel-linux-nm -B) interface
-configure:5584: /opt/gcw0-toolchain/usr/bin/mipsel-linux-gcc -c -Wall -mips32 -O3 -Wextra -fthread-jumps -fexpensive-optimizations -ffast-math -I/opt/gcw0-toolchain/usr/mipsel-gcw0-linux-uclibc/sysroot/opt/gcw0-toolchain/usr/mipsel-gcw0-linux-uclibc/sysroot/usr/include/lua  conftest.c >&5
+configure:5584: /opt/gcw0-toolchain/usr/bin/mipsel-linux-gcc -c -Wall -mips32 -O3 -Wextra -fthread-jumps -fexpensive-optimizations -ffast-math -I/opt/gcw0-toolchain/usr/mipsel-gcw0-linux-uclibc/sysroot/opt/gcw0-toolchain/usr/mipsel-gcw0-linux-uclibc/sysroot/usr/include/lua -D_GLIBCXX_USE_C99 conftest.c >&5
 configure:5587: /opt/gcw0-toolchain/usr/bin/mipsel-linux-nm -B "conftest.o"
 configure:5590: output
 00000000 B some_variable
@@ -214,7 +214,7 @@ configure:6393: result: printf %s\n
 configure:6409: checking for mipsel-linux-ar
 configure:6436: result: mipsel-linux-ar
 configure:6517: checking for archiver @FILE support
-configure:6534: /opt/gcw0-toolchain/usr/bin/mipsel-linux-gcc -c -Wall -mips32 -O3 -Wextra -fthread-jumps -fexpensive-optimizations -ffast-math -I/opt/gcw0-toolchain/usr/mipsel-gcw0-linux-uclibc/sysroot/opt/gcw0-toolchain/usr/mipsel-gcw0-linux-uclibc/sysroot/usr/include/lua  conftest.c >&5
+configure:6534: /opt/gcw0-toolchain/usr/bin/mipsel-linux-gcc -c -Wall -mips32 -O3 -Wextra -fthread-jumps -fexpensive-optimizations -ffast-math -I/opt/gcw0-toolchain/usr/mipsel-gcw0-linux-uclibc/sysroot/opt/gcw0-toolchain/usr/mipsel-gcw0-linux-uclibc/sysroot/usr/include/lua -D_GLIBCXX_USE_C99 conftest.c >&5
 configure:6534: $? = 0
 configure:6537: mipsel-linux-ar cru libconftest.a @conftest.lst >&5
 configure:6540: $? = 0
@@ -228,11 +228,11 @@ configure:6664: checking for mipsel-linux-ranlib
 configure:6680: found /opt/gcw0-toolchain/usr/bin/mipsel-linux-ranlib
 configure:6691: result: mipsel-linux-ranlib
 configure:6833: checking command to parse /opt/gcw0-toolchain/usr/bin/mipsel-linux-nm -B output from /opt/gcw0-toolchain/usr/bin/mipsel-linux-gcc object
-configure:6953: /opt/gcw0-toolchain/usr/bin/mipsel-linux-gcc -c -Wall -mips32 -O3 -Wextra -fthread-jumps -fexpensive-optimizations -ffast-math -I/opt/gcw0-toolchain/usr/mipsel-gcw0-linux-uclibc/sysroot/opt/gcw0-toolchain/usr/mipsel-gcw0-linux-uclibc/sysroot/usr/include/lua  conftest.c >&5
+configure:6953: /opt/gcw0-toolchain/usr/bin/mipsel-linux-gcc -c -Wall -mips32 -O3 -Wextra -fthread-jumps -fexpensive-optimizations -ffast-math -I/opt/gcw0-toolchain/usr/mipsel-gcw0-linux-uclibc/sysroot/opt/gcw0-toolchain/usr/mipsel-gcw0-linux-uclibc/sysroot/usr/include/lua -D_GLIBCXX_USE_C99 conftest.c >&5
 configure:6956: $? = 0
 configure:6960: /opt/gcw0-toolchain/usr/bin/mipsel-linux-nm -B conftest.o \| sed -n -e 's/^.*[ ]\([ABCDGIRSTW][ABCDGIRSTW]*\)[ ][ ]*\([_A-Za-z][_A-Za-z0-9]*\)$/\1 \2 \2/p' | sed '/ __gnu_lto/d' \> conftest.nm
 configure:6963: $? = 0
-configure:7029: /opt/gcw0-toolchain/usr/bin/mipsel-linux-gcc -o conftest -Wall -mips32 -O3 -Wextra -fthread-jumps -fexpensive-optimizations -ffast-math -I/opt/gcw0-toolchain/usr/mipsel-gcw0-linux-uclibc/sysroot/opt/gcw0-toolchain/usr/mipsel-gcw0-linux-uclibc/sysroot/usr/include/lua  -L/opt/gcw0-toolchain/usr/mipsel-gcw0-linux-uclibc/sysroot/opt/gcw0-toolchain/usr/mipsel-gcw0-linux-uclibc/sysroot/usr/lib -llua conftest.c conftstm.o >&5
+configure:7029: /opt/gcw0-toolchain/usr/bin/mipsel-linux-gcc -o conftest -Wall -mips32 -O3 -Wextra -fthread-jumps -fexpensive-optimizations -ffast-math -I/opt/gcw0-toolchain/usr/mipsel-gcw0-linux-uclibc/sysroot/opt/gcw0-toolchain/usr/mipsel-gcw0-linux-uclibc/sysroot/usr/include/lua -D_GLIBCXX_USE_C99 -L/opt/gcw0-toolchain/usr/mipsel-gcw0-linux-uclibc/sysroot/opt/gcw0-toolchain/usr/mipsel-gcw0-linux-uclibc/sysroot/usr/lib -llua conftest.c conftstm.o >&5
 configure:7032: $? = 0
 configure:7070: result: ok
 configure:7107: checking for sysroot
@@ -247,9 +247,9 @@ configure:7479: checking if mt is a manifest tool
 configure:7485: mt '-?'
 configure:7493: result: no
 configure:8135: checking how to run the C preprocessor
-configure:8166: /opt/gcw0-toolchain/usr/bin/mipsel-linux-gcc -E  conftest.c
+configure:8166: /opt/gcw0-toolchain/usr/bin/mipsel-linux-gcc -E -D_GLIBCXX_USE_C99 conftest.c
 configure:8166: $? = 0
-configure:8180: /opt/gcw0-toolchain/usr/bin/mipsel-linux-gcc -E  conftest.c
+configure:8180: /opt/gcw0-toolchain/usr/bin/mipsel-linux-gcc -E -D_GLIBCXX_USE_C99 conftest.c
 conftest.c:11:28: fatal error: ac_nonexistent.h: No such file or directory
  #include <ac_nonexistent.h>
                             ^
@@ -268,9 +268,9 @@ configure: failed program was:
 | /* end confdefs.h.  */
 | #include <ac_nonexistent.h>
 configure:8205: result: /opt/gcw0-toolchain/usr/bin/mipsel-linux-gcc -E
-configure:8225: /opt/gcw0-toolchain/usr/bin/mipsel-linux-gcc -E  conftest.c
+configure:8225: /opt/gcw0-toolchain/usr/bin/mipsel-linux-gcc -E -D_GLIBCXX_USE_C99 conftest.c
 configure:8225: $? = 0
-configure:8239: /opt/gcw0-toolchain/usr/bin/mipsel-linux-gcc -E  conftest.c
+configure:8239: /opt/gcw0-toolchain/usr/bin/mipsel-linux-gcc -E -D_GLIBCXX_USE_C99 conftest.c
 conftest.c:11:28: fatal error: ac_nonexistent.h: No such file or directory
  #include <ac_nonexistent.h>
                             ^
@@ -289,66 +289,66 @@ configure: failed program was:
 | /* end confdefs.h.  */
 | #include <ac_nonexistent.h>
 configure:8268: checking for ANSI C header files
-configure:8288: /opt/gcw0-toolchain/usr/bin/mipsel-linux-gcc -c -Wall -mips32 -O3 -Wextra -fthread-jumps -fexpensive-optimizations -ffast-math -I/opt/gcw0-toolchain/usr/mipsel-gcw0-linux-uclibc/sysroot/opt/gcw0-toolchain/usr/mipsel-gcw0-linux-uclibc/sysroot/usr/include/lua  conftest.c >&5
+configure:8288: /opt/gcw0-toolchain/usr/bin/mipsel-linux-gcc -c -Wall -mips32 -O3 -Wextra -fthread-jumps -fexpensive-optimizations -ffast-math -I/opt/gcw0-toolchain/usr/mipsel-gcw0-linux-uclibc/sysroot/opt/gcw0-toolchain/usr/mipsel-gcw0-linux-uclibc/sysroot/usr/include/lua -D_GLIBCXX_USE_C99 conftest.c >&5
 configure:8288: $? = 0
 configure:8372: result: yes
 configure:8385: checking for sys/types.h
-configure:8385: /opt/gcw0-toolchain/usr/bin/mipsel-linux-gcc -c -Wall -mips32 -O3 -Wextra -fthread-jumps -fexpensive-optimizations -ffast-math -I/opt/gcw0-toolchain/usr/mipsel-gcw0-linux-uclibc/sysroot/opt/gcw0-toolchain/usr/mipsel-gcw0-linux-uclibc/sysroot/usr/include/lua  conftest.c >&5
+configure:8385: /opt/gcw0-toolchain/usr/bin/mipsel-linux-gcc -c -Wall -mips32 -O3 -Wextra -fthread-jumps -fexpensive-optimizations -ffast-math -I/opt/gcw0-toolchain/usr/mipsel-gcw0-linux-uclibc/sysroot/opt/gcw0-toolchain/usr/mipsel-gcw0-linux-uclibc/sysroot/usr/include/lua -D_GLIBCXX_USE_C99 conftest.c >&5
 configure:8385: $? = 0
 configure:8385: result: yes
 configure:8385: checking for sys/stat.h
-configure:8385: /opt/gcw0-toolchain/usr/bin/mipsel-linux-gcc -c -Wall -mips32 -O3 -Wextra -fthread-jumps -fexpensive-optimizations -ffast-math -I/opt/gcw0-toolchain/usr/mipsel-gcw0-linux-uclibc/sysroot/opt/gcw0-toolchain/usr/mipsel-gcw0-linux-uclibc/sysroot/usr/include/lua  conftest.c >&5
+configure:8385: /opt/gcw0-toolchain/usr/bin/mipsel-linux-gcc -c -Wall -mips32 -O3 -Wextra -fthread-jumps -fexpensive-optimizations -ffast-math -I/opt/gcw0-toolchain/usr/mipsel-gcw0-linux-uclibc/sysroot/opt/gcw0-toolchain/usr/mipsel-gcw0-linux-uclibc/sysroot/usr/include/lua -D_GLIBCXX_USE_C99 conftest.c >&5
 configure:8385: $? = 0
 configure:8385: result: yes
 configure:8385: checking for stdlib.h
-configure:8385: /opt/gcw0-toolchain/usr/bin/mipsel-linux-gcc -c -Wall -mips32 -O3 -Wextra -fthread-jumps -fexpensive-optimizations -ffast-math -I/opt/gcw0-toolchain/usr/mipsel-gcw0-linux-uclibc/sysroot/opt/gcw0-toolchain/usr/mipsel-gcw0-linux-uclibc/sysroot/usr/include/lua  conftest.c >&5
+configure:8385: /opt/gcw0-toolchain/usr/bin/mipsel-linux-gcc -c -Wall -mips32 -O3 -Wextra -fthread-jumps -fexpensive-optimizations -ffast-math -I/opt/gcw0-toolchain/usr/mipsel-gcw0-linux-uclibc/sysroot/opt/gcw0-toolchain/usr/mipsel-gcw0-linux-uclibc/sysroot/usr/include/lua -D_GLIBCXX_USE_C99 conftest.c >&5
 configure:8385: $? = 0
 configure:8385: result: yes
 configure:8385: checking for string.h
-configure:8385: /opt/gcw0-toolchain/usr/bin/mipsel-linux-gcc -c -Wall -mips32 -O3 -Wextra -fthread-jumps -fexpensive-optimizations -ffast-math -I/opt/gcw0-toolchain/usr/mipsel-gcw0-linux-uclibc/sysroot/opt/gcw0-toolchain/usr/mipsel-gcw0-linux-uclibc/sysroot/usr/include/lua  conftest.c >&5
+configure:8385: /opt/gcw0-toolchain/usr/bin/mipsel-linux-gcc -c -Wall -mips32 -O3 -Wextra -fthread-jumps -fexpensive-optimizations -ffast-math -I/opt/gcw0-toolchain/usr/mipsel-gcw0-linux-uclibc/sysroot/opt/gcw0-toolchain/usr/mipsel-gcw0-linux-uclibc/sysroot/usr/include/lua -D_GLIBCXX_USE_C99 conftest.c >&5
 configure:8385: $? = 0
 configure:8385: result: yes
 configure:8385: checking for memory.h
-configure:8385: /opt/gcw0-toolchain/usr/bin/mipsel-linux-gcc -c -Wall -mips32 -O3 -Wextra -fthread-jumps -fexpensive-optimizations -ffast-math -I/opt/gcw0-toolchain/usr/mipsel-gcw0-linux-uclibc/sysroot/opt/gcw0-toolchain/usr/mipsel-gcw0-linux-uclibc/sysroot/usr/include/lua  conftest.c >&5
+configure:8385: /opt/gcw0-toolchain/usr/bin/mipsel-linux-gcc -c -Wall -mips32 -O3 -Wextra -fthread-jumps -fexpensive-optimizations -ffast-math -I/opt/gcw0-toolchain/usr/mipsel-gcw0-linux-uclibc/sysroot/opt/gcw0-toolchain/usr/mipsel-gcw0-linux-uclibc/sysroot/usr/include/lua -D_GLIBCXX_USE_C99 conftest.c >&5
 configure:8385: $? = 0
 configure:8385: result: yes
 configure:8385: checking for strings.h
-configure:8385: /opt/gcw0-toolchain/usr/bin/mipsel-linux-gcc -c -Wall -mips32 -O3 -Wextra -fthread-jumps -fexpensive-optimizations -ffast-math -I/opt/gcw0-toolchain/usr/mipsel-gcw0-linux-uclibc/sysroot/opt/gcw0-toolchain/usr/mipsel-gcw0-linux-uclibc/sysroot/usr/include/lua  conftest.c >&5
+configure:8385: /opt/gcw0-toolchain/usr/bin/mipsel-linux-gcc -c -Wall -mips32 -O3 -Wextra -fthread-jumps -fexpensive-optimizations -ffast-math -I/opt/gcw0-toolchain/usr/mipsel-gcw0-linux-uclibc/sysroot/opt/gcw0-toolchain/usr/mipsel-gcw0-linux-uclibc/sysroot/usr/include/lua -D_GLIBCXX_USE_C99 conftest.c >&5
 configure:8385: $? = 0
 configure:8385: result: yes
 configure:8385: checking for inttypes.h
-configure:8385: /opt/gcw0-toolchain/usr/bin/mipsel-linux-gcc -c -Wall -mips32 -O3 -Wextra -fthread-jumps -fexpensive-optimizations -ffast-math -I/opt/gcw0-toolchain/usr/mipsel-gcw0-linux-uclibc/sysroot/opt/gcw0-toolchain/usr/mipsel-gcw0-linux-uclibc/sysroot/usr/include/lua  conftest.c >&5
+configure:8385: /opt/gcw0-toolchain/usr/bin/mipsel-linux-gcc -c -Wall -mips32 -O3 -Wextra -fthread-jumps -fexpensive-optimizations -ffast-math -I/opt/gcw0-toolchain/usr/mipsel-gcw0-linux-uclibc/sysroot/opt/gcw0-toolchain/usr/mipsel-gcw0-linux-uclibc/sysroot/usr/include/lua -D_GLIBCXX_USE_C99 conftest.c >&5
 configure:8385: $? = 0
 configure:8385: result: yes
 configure:8385: checking for stdint.h
-configure:8385: /opt/gcw0-toolchain/usr/bin/mipsel-linux-gcc -c -Wall -mips32 -O3 -Wextra -fthread-jumps -fexpensive-optimizations -ffast-math -I/opt/gcw0-toolchain/usr/mipsel-gcw0-linux-uclibc/sysroot/opt/gcw0-toolchain/usr/mipsel-gcw0-linux-uclibc/sysroot/usr/include/lua  conftest.c >&5
+configure:8385: /opt/gcw0-toolchain/usr/bin/mipsel-linux-gcc -c -Wall -mips32 -O3 -Wextra -fthread-jumps -fexpensive-optimizations -ffast-math -I/opt/gcw0-toolchain/usr/mipsel-gcw0-linux-uclibc/sysroot/opt/gcw0-toolchain/usr/mipsel-gcw0-linux-uclibc/sysroot/usr/include/lua -D_GLIBCXX_USE_C99 conftest.c >&5
 configure:8385: $? = 0
 configure:8385: result: yes
 configure:8385: checking for unistd.h
-configure:8385: /opt/gcw0-toolchain/usr/bin/mipsel-linux-gcc -c -Wall -mips32 -O3 -Wextra -fthread-jumps -fexpensive-optimizations -ffast-math -I/opt/gcw0-toolchain/usr/mipsel-gcw0-linux-uclibc/sysroot/opt/gcw0-toolchain/usr/mipsel-gcw0-linux-uclibc/sysroot/usr/include/lua  conftest.c >&5
+configure:8385: /opt/gcw0-toolchain/usr/bin/mipsel-linux-gcc -c -Wall -mips32 -O3 -Wextra -fthread-jumps -fexpensive-optimizations -ffast-math -I/opt/gcw0-toolchain/usr/mipsel-gcw0-linux-uclibc/sysroot/opt/gcw0-toolchain/usr/mipsel-gcw0-linux-uclibc/sysroot/usr/include/lua -D_GLIBCXX_USE_C99 conftest.c >&5
 configure:8385: $? = 0
 configure:8385: result: yes
 configure:8399: checking for dlfcn.h
-configure:8399: /opt/gcw0-toolchain/usr/bin/mipsel-linux-gcc -c -Wall -mips32 -O3 -Wextra -fthread-jumps -fexpensive-optimizations -ffast-math -I/opt/gcw0-toolchain/usr/mipsel-gcw0-linux-uclibc/sysroot/opt/gcw0-toolchain/usr/mipsel-gcw0-linux-uclibc/sysroot/usr/include/lua  conftest.c >&5
+configure:8399: /opt/gcw0-toolchain/usr/bin/mipsel-linux-gcc -c -Wall -mips32 -O3 -Wextra -fthread-jumps -fexpensive-optimizations -ffast-math -I/opt/gcw0-toolchain/usr/mipsel-gcw0-linux-uclibc/sysroot/opt/gcw0-toolchain/usr/mipsel-gcw0-linux-uclibc/sysroot/usr/include/lua -D_GLIBCXX_USE_C99 conftest.c >&5
 configure:8399: $? = 0
 configure:8399: result: yes
 configure:8604: checking for objdir
 configure:8619: result: .libs
 configure:8890: checking if /opt/gcw0-toolchain/usr/bin/mipsel-linux-gcc supports -fno-rtti -fno-exceptions
-configure:8908: /opt/gcw0-toolchain/usr/bin/mipsel-linux-gcc -c -Wall -mips32 -O3 -Wextra -fthread-jumps -fexpensive-optimizations -ffast-math -I/opt/gcw0-toolchain/usr/mipsel-gcw0-linux-uclibc/sysroot/opt/gcw0-toolchain/usr/mipsel-gcw0-linux-uclibc/sysroot/usr/include/lua  -fno-rtti -fno-exceptions conftest.c >&5
+configure:8908: /opt/gcw0-toolchain/usr/bin/mipsel-linux-gcc -c -Wall -mips32 -O3 -Wextra -fthread-jumps -fexpensive-optimizations -ffast-math -I/opt/gcw0-toolchain/usr/mipsel-gcw0-linux-uclibc/sysroot/opt/gcw0-toolchain/usr/mipsel-gcw0-linux-uclibc/sysroot/usr/include/lua -D_GLIBCXX_USE_C99 -fno-rtti -fno-exceptions conftest.c >&5
 cc1: warning: command line option '-fno-rtti' is valid for C++/ObjC++ but not for C
 configure:8912: $? = 0
 configure:8925: result: no
 configure:9252: checking for /opt/gcw0-toolchain/usr/bin/mipsel-linux-gcc option to produce PIC
 configure:9259: result: -fPIC -DPIC
 configure:9267: checking if /opt/gcw0-toolchain/usr/bin/mipsel-linux-gcc PIC flag -fPIC -DPIC works
-configure:9285: /opt/gcw0-toolchain/usr/bin/mipsel-linux-gcc -c -Wall -mips32 -O3 -Wextra -fthread-jumps -fexpensive-optimizations -ffast-math -I/opt/gcw0-toolchain/usr/mipsel-gcw0-linux-uclibc/sysroot/opt/gcw0-toolchain/usr/mipsel-gcw0-linux-uclibc/sysroot/usr/include/lua  -fPIC -DPIC -DPIC conftest.c >&5
+configure:9285: /opt/gcw0-toolchain/usr/bin/mipsel-linux-gcc -c -Wall -mips32 -O3 -Wextra -fthread-jumps -fexpensive-optimizations -ffast-math -I/opt/gcw0-toolchain/usr/mipsel-gcw0-linux-uclibc/sysroot/opt/gcw0-toolchain/usr/mipsel-gcw0-linux-uclibc/sysroot/usr/include/lua -D_GLIBCXX_USE_C99 -fPIC -DPIC -DPIC conftest.c >&5
 configure:9289: $? = 0
 configure:9302: result: yes
 configure:9331: checking if /opt/gcw0-toolchain/usr/bin/mipsel-linux-gcc static flag -static works
 configure:9359: result: yes
 configure:9374: checking if /opt/gcw0-toolchain/usr/bin/mipsel-linux-gcc supports -c -o file.o
-configure:9395: /opt/gcw0-toolchain/usr/bin/mipsel-linux-gcc -c -Wall -mips32 -O3 -Wextra -fthread-jumps -fexpensive-optimizations -ffast-math -I/opt/gcw0-toolchain/usr/mipsel-gcw0-linux-uclibc/sysroot/opt/gcw0-toolchain/usr/mipsel-gcw0-linux-uclibc/sysroot/usr/include/lua  -o out/conftest2.o conftest.c >&5
+configure:9395: /opt/gcw0-toolchain/usr/bin/mipsel-linux-gcc -c -Wall -mips32 -O3 -Wextra -fthread-jumps -fexpensive-optimizations -ffast-math -I/opt/gcw0-toolchain/usr/mipsel-gcw0-linux-uclibc/sysroot/opt/gcw0-toolchain/usr/mipsel-gcw0-linux-uclibc/sysroot/usr/include/lua -D_GLIBCXX_USE_C99 -o out/conftest2.o conftest.c >&5
 configure:9399: $? = 0
 configure:9421: result: yes
 configure:9429: checking if /opt/gcw0-toolchain/usr/bin/mipsel-linux-gcc supports -c -o file.o
@@ -356,13 +356,13 @@ configure:9476: result: yes
 configure:9509: checking whether the /opt/gcw0-toolchain/usr/bin/mipsel-linux-gcc linker (/opt/gcw0-toolchain/usr/mipsel-gcw0-linux-uclibc/bin/ld) supports shared libraries
 configure:10662: result: yes
 configure:10699: checking whether -lc should be explicitly linked in
-configure:10707: /opt/gcw0-toolchain/usr/bin/mipsel-linux-gcc -c -Wall -mips32 -O3 -Wextra -fthread-jumps -fexpensive-optimizations -ffast-math -I/opt/gcw0-toolchain/usr/mipsel-gcw0-linux-uclibc/sysroot/opt/gcw0-toolchain/usr/mipsel-gcw0-linux-uclibc/sysroot/usr/include/lua  conftest.c >&5
+configure:10707: /opt/gcw0-toolchain/usr/bin/mipsel-linux-gcc -c -Wall -mips32 -O3 -Wextra -fthread-jumps -fexpensive-optimizations -ffast-math -I/opt/gcw0-toolchain/usr/mipsel-gcw0-linux-uclibc/sysroot/opt/gcw0-toolchain/usr/mipsel-gcw0-linux-uclibc/sysroot/usr/include/lua -D_GLIBCXX_USE_C99 conftest.c >&5
 configure:10710: $? = 0
 configure:10725: /opt/gcw0-toolchain/usr/bin/mipsel-linux-gcc -shared  -fPIC -DPIC conftest.o  -v -Wl,-soname -Wl,conftest -o conftest 2\>\&1 \| /usr/bin/grep  -lc  \>/dev/null 2\>\&1
 configure:10728: $? = 0
 configure:10742: result: no
 configure:10902: checking dynamic linker characteristics
-configure:11413: /opt/gcw0-toolchain/usr/bin/mipsel-linux-gcc -o conftest -Wall -mips32 -O3 -Wextra -fthread-jumps -fexpensive-optimizations -ffast-math -I/opt/gcw0-toolchain/usr/mipsel-gcw0-linux-uclibc/sysroot/opt/gcw0-toolchain/usr/mipsel-gcw0-linux-uclibc/sysroot/usr/include/lua  -L/opt/gcw0-toolchain/usr/mipsel-gcw0-linux-uclibc/sysroot/opt/gcw0-toolchain/usr/mipsel-gcw0-linux-uclibc/sysroot/usr/lib -llua -Wl,-rpath -Wl,/foo conftest.c  >&5
+configure:11413: /opt/gcw0-toolchain/usr/bin/mipsel-linux-gcc -o conftest -Wall -mips32 -O3 -Wextra -fthread-jumps -fexpensive-optimizations -ffast-math -I/opt/gcw0-toolchain/usr/mipsel-gcw0-linux-uclibc/sysroot/opt/gcw0-toolchain/usr/mipsel-gcw0-linux-uclibc/sysroot/usr/include/lua -D_GLIBCXX_USE_C99 -L/opt/gcw0-toolchain/usr/mipsel-gcw0-linux-uclibc/sysroot/opt/gcw0-toolchain/usr/mipsel-gcw0-linux-uclibc/sysroot/usr/lib -llua -Wl,-rpath -Wl,/foo conftest.c  >&5
 configure:11413: $? = 0
 configure:11635: result: GNU/Linux ld.so
 configure:11742: checking how to hardcode library paths into programs
@@ -414,50 +414,47 @@ configure:9971: checking whether /opt/gcw0-toolchain/usr/bin/mipsel-linux-gcc un
 configure:10008: result: yes
 configure:10027: checking dependency style of /opt/gcw0-toolchain/usr/bin/mipsel-linux-gcc
 configure:10138: result: gcc3
-configure:10167: checking for mipsel-linux-g++
-configure:10183: found /opt/gcw0-toolchain/usr/bin/mipsel-linux-g++
-configure:10194: result: mipsel-linux-g++
 configure:10265: checking for C++ compiler version
-configure:10274: mipsel-linux-g++ --version >&5
+configure:10274: /opt/gcw0-toolchain/usr/bin/mipsel-linux-g++ --version >&5
 mipsel-linux-g++ (Buildroot 2014.05-gbb847d4) 4.9.1
 Copyright (C) 2014 Free Software Foundation, Inc.
 This is free software; see the source for copying conditions.  There is NO
 warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 
 configure:10285: $? = 0
-configure:10274: mipsel-linux-g++ -v >&5
+configure:10274: /opt/gcw0-toolchain/usr/bin/mipsel-linux-g++ -v >&5
 Using built-in specs.
-COLLECT_GCC=mipsel-linux-g++
+COLLECT_GCC=/opt/gcw0-toolchain/usr/bin/mipsel-linux-g++
 COLLECT_LTO_WRAPPER=/opt/gcw0-toolchain/usr/libexec/gcc/mipsel-gcw0-linux-uclibc/4.9.1/lto-wrapper
 Target: mipsel-gcw0-linux-uclibc
 Configured with: ./configure --prefix=/opt/gcw0-toolchain/usr --sysconfdir=/opt/gcw0-toolchain/etc --enable-shared --enable-static --target=mipsel-gcw0-linux-uclibc --with-sysroot=/opt/gcw0-toolchain/usr/mipsel-gcw0-linux-uclibc/sysroot --disable-__cxa_atexit --with-gnu-ld --disable-libssp --disable-multilib --with-gmp=/opt/gcw0-toolchain/usr --with-mpfr=/opt/gcw0-toolchain/usr --enable-target-optspace --disable-libsanitizer --enable-tls --disable-libmudflap --enable-threads --with-mpc=/opt/gcw0-toolchain/usr --disable-decimal-float --with-arch=mips32r2 --with-tune=mips32r2 --with-abi=32 --with-pkgversion='Buildroot 2014.05-gbb847d4' --with-bugurl=http://bugs.buildroot.net/ --enable-languages=c,c++ --with-build-time-tools=/opt/gcw0-toolchain/usr/mipsel-gcw0-linux-uclibc/bin --disable-libgomp --enable-lto
 Thread model: posix
 gcc version 4.9.1 (Buildroot 2014.05-gbb847d4) 
 configure:10285: $? = 0
-configure:10274: mipsel-linux-g++ -V >&5
+configure:10274: /opt/gcw0-toolchain/usr/bin/mipsel-linux-g++ -V >&5
 mipsel-linux-g++: error: unrecognized command line option '-V'
 mipsel-linux-g++: fatal error: no input files
 compilation terminated.
 configure:10285: $? = 1
-configure:10274: mipsel-linux-g++ -qversion >&5
+configure:10274: /opt/gcw0-toolchain/usr/bin/mipsel-linux-g++ -qversion >&5
 mipsel-linux-g++: error: unrecognized command line option '-qversion'
 mipsel-linux-g++: fatal error: no input files
 compilation terminated.
 configure:10285: $? = 1
 configure:10289: checking whether we are using the GNU C++ compiler
-configure:10308: mipsel-linux-g++ -c   conftest.cpp >&5
+configure:10308: /opt/gcw0-toolchain/usr/bin/mipsel-linux-g++ -c  -D_GLIBCXX_USE_C99 conftest.cpp >&5
 configure:10308: $? = 0
 configure:10317: result: yes
-configure:10326: checking whether mipsel-linux-g++ accepts -g
-configure:10346: mipsel-linux-g++ -c -g  conftest.cpp >&5
+configure:10326: checking whether /opt/gcw0-toolchain/usr/bin/mipsel-linux-g++ accepts -g
+configure:10346: /opt/gcw0-toolchain/usr/bin/mipsel-linux-g++ -c -g -D_GLIBCXX_USE_C99 conftest.cpp >&5
 configure:10346: $? = 0
 configure:10387: result: yes
-configure:10412: checking dependency style of mipsel-linux-g++
+configure:10412: checking dependency style of /opt/gcw0-toolchain/usr/bin/mipsel-linux-g++
 configure:10523: result: gcc3
 configure:10556: checking how to run the C++ preprocessor
-configure:10583: mipsel-linux-g++ -E  conftest.cpp
+configure:10583: /opt/gcw0-toolchain/usr/bin/mipsel-linux-g++ -E -D_GLIBCXX_USE_C99 conftest.cpp
 configure:10583: $? = 0
-configure:10597: mipsel-linux-g++ -E  conftest.cpp
+configure:10597: /opt/gcw0-toolchain/usr/bin/mipsel-linux-g++ -E -D_GLIBCXX_USE_C99 conftest.cpp
 conftest.cpp:23:28: fatal error: ac_nonexistent.h: No such file or directory
  #include <ac_nonexistent.h>
                             ^
@@ -487,10 +484,10 @@ configure: failed program was:
 | #define LT_OBJDIR ".libs/"
 | /* end confdefs.h.  */
 | #include <ac_nonexistent.h>
-configure:10622: result: mipsel-linux-g++ -E
-configure:10642: mipsel-linux-g++ -E  conftest.cpp
+configure:10622: result: /opt/gcw0-toolchain/usr/bin/mipsel-linux-g++ -E
+configure:10642: /opt/gcw0-toolchain/usr/bin/mipsel-linux-g++ -E -D_GLIBCXX_USE_C99 conftest.cpp
 configure:10642: $? = 0
-configure:10656: mipsel-linux-g++ -E  conftest.cpp
+configure:10656: /opt/gcw0-toolchain/usr/bin/mipsel-linux-g++ -E -D_GLIBCXX_USE_C99 conftest.cpp
 conftest.cpp:23:28: fatal error: ac_nonexistent.h: No such file or directory
  #include <ac_nonexistent.h>
                             ^
@@ -520,29 +517,29 @@ configure: failed program was:
 | #define LT_OBJDIR ".libs/"
 | /* end confdefs.h.  */
 | #include <ac_nonexistent.h>
-configure:10825: checking for ld used by mipsel-linux-g++
+configure:10825: checking for ld used by /opt/gcw0-toolchain/usr/bin/mipsel-linux-g++
 configure:10892: result: /opt/gcw0-toolchain/usr/mipsel-gcw0-linux-uclibc/bin/ld
 configure:10899: checking if the linker (/opt/gcw0-toolchain/usr/mipsel-gcw0-linux-uclibc/bin/ld) is GNU ld
 configure:10914: result: yes
-configure:10969: checking whether the mipsel-linux-g++ linker (/opt/gcw0-toolchain/usr/mipsel-gcw0-linux-uclibc/bin/ld) supports shared libraries
+configure:10969: checking whether the /opt/gcw0-toolchain/usr/bin/mipsel-linux-g++ linker (/opt/gcw0-toolchain/usr/mipsel-gcw0-linux-uclibc/bin/ld) supports shared libraries
 configure:11974: result: yes
-configure:12010: mipsel-linux-g++ -c -g -O2  conftest.cpp >&5
+configure:12010: /opt/gcw0-toolchain/usr/bin/mipsel-linux-g++ -c  -D_GLIBCXX_USE_C99 conftest.cpp >&5
 configure:12013: $? = 0
-configure:12533: checking for mipsel-linux-g++ option to produce PIC
+configure:12533: checking for /opt/gcw0-toolchain/usr/bin/mipsel-linux-g++ option to produce PIC
 configure:12540: result: -fPIC -DPIC
-configure:12548: checking if mipsel-linux-g++ PIC flag -fPIC -DPIC works
-configure:12566: mipsel-linux-g++ -c -g -O2  -fPIC -DPIC -DPIC conftest.cpp >&5
+configure:12548: checking if /opt/gcw0-toolchain/usr/bin/mipsel-linux-g++ PIC flag -fPIC -DPIC works
+configure:12566: /opt/gcw0-toolchain/usr/bin/mipsel-linux-g++ -c  -D_GLIBCXX_USE_C99 -fPIC -DPIC -DPIC conftest.cpp >&5
 configure:12570: $? = 0
 configure:12583: result: yes
-configure:12606: checking if mipsel-linux-g++ static flag -static works
+configure:12606: checking if /opt/gcw0-toolchain/usr/bin/mipsel-linux-g++ static flag -static works
 configure:12634: result: yes
-configure:12646: checking if mipsel-linux-g++ supports -c -o file.o
-configure:12667: mipsel-linux-g++ -c -g -O2  -o out/conftest2.o conftest.cpp >&5
+configure:12646: checking if /opt/gcw0-toolchain/usr/bin/mipsel-linux-g++ supports -c -o file.o
+configure:12667: /opt/gcw0-toolchain/usr/bin/mipsel-linux-g++ -c  -D_GLIBCXX_USE_C99 -o out/conftest2.o conftest.cpp >&5
 configure:12671: $? = 0
 configure:12693: result: yes
-configure:12698: checking if mipsel-linux-g++ supports -c -o file.o
+configure:12698: checking if /opt/gcw0-toolchain/usr/bin/mipsel-linux-g++ supports -c -o file.o
 configure:12745: result: yes
-configure:12775: checking whether the mipsel-linux-g++ linker (/opt/gcw0-toolchain/usr/mipsel-gcw0-linux-uclibc/bin/ld) supports shared libraries
+configure:12775: checking whether the /opt/gcw0-toolchain/usr/bin/mipsel-linux-g++ linker (/opt/gcw0-toolchain/usr/mipsel-gcw0-linux-uclibc/bin/ld) supports shared libraries
 configure:12811: result: yes
 configure:12952: checking dynamic linker characteristics
 configure:13619: result: GNU/Linux ld.so
@@ -581,7 +578,7 @@ mipsel-linux-g++: fatal error: no input files
 compilation terminated.
 configure:12873: $? = 1
 configure:12877: checking whether we are using the GNU Objective C++ compiler
-configure:12896: mipsel-linux-g++ -c   conftest.mm >&5
+configure:12896: mipsel-linux-g++ -c  -D_GLIBCXX_USE_C99 conftest.mm >&5
 mipsel-linux-g++: error: conftest.mm: Objective-C++ compiler not installed on this system
 configure:12896: $? = 1
 configure: failed program was:
@@ -620,7 +617,7 @@ configure: failed program was:
 | }
 configure:12905: result: no
 configure:12914: checking whether mipsel-linux-g++ accepts -g
-configure:12934: mipsel-linux-g++ -c -g  conftest.mm >&5
+configure:12934: mipsel-linux-g++ -c -g -D_GLIBCXX_USE_C99 conftest.mm >&5
 mipsel-linux-g++: error: conftest.mm: Objective-C++ compiler not installed on this system
 configure:12934: $? = 1
 configure: failed program was:
@@ -654,7 +651,7 @@ configure: failed program was:
 |   ;
 |   return 0;
 | }
-configure:12949: mipsel-linux-g++ -c   conftest.mm >&5
+configure:12949: mipsel-linux-g++ -c  -D_GLIBCXX_USE_C99 conftest.mm >&5
 mipsel-linux-g++: error: conftest.mm: Objective-C++ compiler not installed on this system
 configure:12949: $? = 1
 configure: failed program was:
@@ -688,7 +685,7 @@ configure: failed program was:
 |   ;
 |   return 0;
 | }
-configure:12965: mipsel-linux-g++ -c -g  conftest.mm >&5
+configure:12965: mipsel-linux-g++ -c -g -D_GLIBCXX_USE_C99 conftest.mm >&5
 mipsel-linux-g++: error: conftest.mm: Objective-C++ compiler not installed on this system
 configure:12965: $? = 1
 configure: failed program was:
@@ -728,7 +725,7 @@ configure:13109: result: gcc3
 configure:13233: checking pkg-config is at least version 0.9.0
 configure:13236: result: yes
 configure:13244: checking whether byte ordering is bigendian
-configure:13259: /opt/gcw0-toolchain/usr/bin/mipsel-linux-gcc -c -Wall -mips32 -O3 -Wextra -fthread-jumps -fexpensive-optimizations -ffast-math -I/opt/gcw0-toolchain/usr/mipsel-gcw0-linux-uclibc/sysroot/opt/gcw0-toolchain/usr/mipsel-gcw0-linux-uclibc/sysroot/usr/include/lua  conftest.c >&5
+configure:13259: /opt/gcw0-toolchain/usr/bin/mipsel-linux-gcc -c -Wall -mips32 -O3 -Wextra -fthread-jumps -fexpensive-optimizations -ffast-math -I/opt/gcw0-toolchain/usr/mipsel-gcw0-linux-uclibc/sysroot/opt/gcw0-toolchain/usr/mipsel-gcw0-linux-uclibc/sysroot/usr/include/lua -D_GLIBCXX_USE_C99 conftest.c >&5
 conftest.c:24:9: error: unknown type name 'not'
          not a universal capable compiler
          ^
@@ -765,9 +762,9 @@ configure: failed program was:
 | 	     #endif
 | 	     typedef int dummy;
 | 
-configure:13304: /opt/gcw0-toolchain/usr/bin/mipsel-linux-gcc -c -Wall -mips32 -O3 -Wextra -fthread-jumps -fexpensive-optimizations -ffast-math -I/opt/gcw0-toolchain/usr/mipsel-gcw0-linux-uclibc/sysroot/opt/gcw0-toolchain/usr/mipsel-gcw0-linux-uclibc/sysroot/usr/include/lua  conftest.c >&5
+configure:13304: /opt/gcw0-toolchain/usr/bin/mipsel-linux-gcc -c -Wall -mips32 -O3 -Wextra -fthread-jumps -fexpensive-optimizations -ffast-math -I/opt/gcw0-toolchain/usr/mipsel-gcw0-linux-uclibc/sysroot/opt/gcw0-toolchain/usr/mipsel-gcw0-linux-uclibc/sysroot/usr/include/lua -D_GLIBCXX_USE_C99 conftest.c >&5
 configure:13304: $? = 0
-configure:13322: /opt/gcw0-toolchain/usr/bin/mipsel-linux-gcc -c -Wall -mips32 -O3 -Wextra -fthread-jumps -fexpensive-optimizations -ffast-math -I/opt/gcw0-toolchain/usr/mipsel-gcw0-linux-uclibc/sysroot/opt/gcw0-toolchain/usr/mipsel-gcw0-linux-uclibc/sysroot/usr/include/lua  conftest.c >&5
+configure:13322: /opt/gcw0-toolchain/usr/bin/mipsel-linux-gcc -c -Wall -mips32 -O3 -Wextra -fthread-jumps -fexpensive-optimizations -ffast-math -I/opt/gcw0-toolchain/usr/mipsel-gcw0-linux-uclibc/sysroot/opt/gcw0-toolchain/usr/mipsel-gcw0-linux-uclibc/sysroot/usr/include/lua -D_GLIBCXX_USE_C99 conftest.c >&5
 conftest.c: In function 'main':
 conftest.c:30:4: error: unknown type name 'not'
     not big endian
@@ -813,17 +810,17 @@ configure: failed program was:
 |   return 0;
 | }
 configure:13450: result: no
-configure:13536: checking whether mipsel-linux-g++ supports flag -std=c++0x
-configure:13549: mipsel-linux-g++ -c -std=c++0x  conftest.cpp >&5
+configure:13536: checking whether /opt/gcw0-toolchain/usr/bin/mipsel-linux-g++ supports flag -std=c++0x
+configure:13549: /opt/gcw0-toolchain/usr/bin/mipsel-linux-g++ -c -std=c++0x -D_GLIBCXX_USE_C99 conftest.cpp >&5
 configure:13549: $? = 0
 configure:13550: result: yes
-configure:13561: checking whether mipsel-linux-g++ supports flag -std=c++11
-configure:13574: mipsel-linux-g++ -c -std=c++11  conftest.cpp >&5
+configure:13561: checking whether /opt/gcw0-toolchain/usr/bin/mipsel-linux-g++ supports flag -std=c++11
+configure:13574: /opt/gcw0-toolchain/usr/bin/mipsel-linux-g++ -c -std=c++11 -D_GLIBCXX_USE_C99 conftest.cpp >&5
 configure:13574: $? = 0
 configure:13575: result: yes
-configure:13593: mipsel-linux-g++ -c -g -O2 -std=c++11  conftest.cpp >&5
+configure:13593: /opt/gcw0-toolchain/usr/bin/mipsel-linux-g++ -c  -std=c++11 -D_GLIBCXX_USE_C99 conftest.cpp >&5
 configure:13593: $? = 0
-configure:13593: mipsel-linux-g++ -c -g -O2 -std=c++11  conftest.cpp >&5
+configure:13593: /opt/gcw0-toolchain/usr/bin/mipsel-linux-g++ -c  -std=c++11 -D_GLIBCXX_USE_C99 conftest.cpp >&5
 conftest.cpp: In function 'int main()':
 conftest.cpp:27:50: error: size of array 'test_array' is negative
  static int test_array [1 - 2 * !((__GNUC__) <= 0)];
@@ -863,7 +860,7 @@ configure: failed program was:
 |   ;
 |   return 0;
 | }
-configure:13593: mipsel-linux-g++ -c -g -O2 -std=c++11  conftest.cpp >&5
+configure:13593: /opt/gcw0-toolchain/usr/bin/mipsel-linux-g++ -c  -std=c++11 -D_GLIBCXX_USE_C99 conftest.cpp >&5
 conftest.cpp: In function 'int main()':
 conftest.cpp:27:50: error: size of array 'test_array' is negative
  static int test_array [1 - 2 * !((__GNUC__) <= 1)];
@@ -903,7 +900,7 @@ configure: failed program was:
 |   ;
 |   return 0;
 | }
-configure:13593: mipsel-linux-g++ -c -g -O2 -std=c++11  conftest.cpp >&5
+configure:13593: /opt/gcw0-toolchain/usr/bin/mipsel-linux-g++ -c  -std=c++11 -D_GLIBCXX_USE_C99 conftest.cpp >&5
 conftest.cpp: In function 'int main()':
 conftest.cpp:27:50: error: size of array 'test_array' is negative
  static int test_array [1 - 2 * !((__GNUC__) <= 3)];
@@ -943,15 +940,15 @@ configure: failed program was:
 |   ;
 |   return 0;
 | }
-configure:13593: mipsel-linux-g++ -c -g -O2 -std=c++11  conftest.cpp >&5
+configure:13593: /opt/gcw0-toolchain/usr/bin/mipsel-linux-g++ -c  -std=c++11 -D_GLIBCXX_USE_C99 conftest.cpp >&5
 configure:13593: $? = 0
-configure:13593: mipsel-linux-g++ -c -g -O2 -std=c++11  conftest.cpp >&5
+configure:13593: /opt/gcw0-toolchain/usr/bin/mipsel-linux-g++ -c  -std=c++11 -D_GLIBCXX_USE_C99 conftest.cpp >&5
 configure:13593: $? = 0
-configure:13593: mipsel-linux-g++ -c -g -O2 -std=c++11  conftest.cpp >&5
+configure:13593: /opt/gcw0-toolchain/usr/bin/mipsel-linux-g++ -c  -std=c++11 -D_GLIBCXX_USE_C99 conftest.cpp >&5
 configure:13593: $? = 0
-configure:13599: mipsel-linux-g++ -c -g -O2 -std=c++11  conftest.cpp >&5
+configure:13599: /opt/gcw0-toolchain/usr/bin/mipsel-linux-g++ -c  -std=c++11 -D_GLIBCXX_USE_C99 conftest.cpp >&5
 configure:13599: $? = 0
-configure:13599: mipsel-linux-g++ -c -g -O2 -std=c++11  conftest.cpp >&5
+configure:13599: /opt/gcw0-toolchain/usr/bin/mipsel-linux-g++ -c  -std=c++11 -D_GLIBCXX_USE_C99 conftest.cpp >&5
 conftest.cpp: In function 'int main()':
 conftest.cpp:27:56: error: size of array 'test_array' is negative
  static int test_array [1 - 2 * !((__GNUC_MINOR__) <= 0)];
@@ -991,7 +988,7 @@ configure: failed program was:
 |   ;
 |   return 0;
 | }
-configure:13599: mipsel-linux-g++ -c -g -O2 -std=c++11  conftest.cpp >&5
+configure:13599: /opt/gcw0-toolchain/usr/bin/mipsel-linux-g++ -c  -std=c++11 -D_GLIBCXX_USE_C99 conftest.cpp >&5
 conftest.cpp: In function 'int main()':
 conftest.cpp:27:56: error: size of array 'test_array' is negative
  static int test_array [1 - 2 * !((__GNUC_MINOR__) <= 1)];
@@ -1031,7 +1028,7 @@ configure: failed program was:
 |   ;
 |   return 0;
 | }
-configure:13599: mipsel-linux-g++ -c -g -O2 -std=c++11  conftest.cpp >&5
+configure:13599: /opt/gcw0-toolchain/usr/bin/mipsel-linux-g++ -c  -std=c++11 -D_GLIBCXX_USE_C99 conftest.cpp >&5
 conftest.cpp: In function 'int main()':
 conftest.cpp:27:56: error: size of array 'test_array' is negative
  static int test_array [1 - 2 * !((__GNUC_MINOR__) <= 3)];
@@ -1071,7 +1068,7 @@ configure: failed program was:
 |   ;
 |   return 0;
 | }
-configure:13599: mipsel-linux-g++ -c -g -O2 -std=c++11  conftest.cpp >&5
+configure:13599: /opt/gcw0-toolchain/usr/bin/mipsel-linux-g++ -c  -std=c++11 -D_GLIBCXX_USE_C99 conftest.cpp >&5
 conftest.cpp: In function 'int main()':
 conftest.cpp:27:56: error: size of array 'test_array' is negative
  static int test_array [1 - 2 * !((__GNUC_MINOR__) <= 7)];
@@ -1111,13 +1108,13 @@ configure: failed program was:
 |   ;
 |   return 0;
 | }
-configure:13599: mipsel-linux-g++ -c -g -O2 -std=c++11  conftest.cpp >&5
+configure:13599: /opt/gcw0-toolchain/usr/bin/mipsel-linux-g++ -c  -std=c++11 -D_GLIBCXX_USE_C99 conftest.cpp >&5
 configure:13599: $? = 0
-configure:13599: mipsel-linux-g++ -c -g -O2 -std=c++11  conftest.cpp >&5
+configure:13599: /opt/gcw0-toolchain/usr/bin/mipsel-linux-g++ -c  -std=c++11 -D_GLIBCXX_USE_C99 conftest.cpp >&5
 configure:13599: $? = 0
-configure:13599: mipsel-linux-g++ -c -g -O2 -std=c++11  conftest.cpp >&5
+configure:13599: /opt/gcw0-toolchain/usr/bin/mipsel-linux-g++ -c  -std=c++11 -D_GLIBCXX_USE_C99 conftest.cpp >&5
 configure:13599: $? = 0
-configure:13599: mipsel-linux-g++ -c -g -O2 -std=c++11  conftest.cpp >&5
+configure:13599: /opt/gcw0-toolchain/usr/bin/mipsel-linux-g++ -c  -std=c++11 -D_GLIBCXX_USE_C99 conftest.cpp >&5
 conftest.cpp: In function 'int main()':
 conftest.cpp:27:56: error: size of array 'test_array' is negative
  static int test_array [1 - 2 * !((__GNUC_MINOR__) <= 8)];
@@ -1157,9 +1154,9 @@ configure: failed program was:
 |   ;
 |   return 0;
 | }
-configure:13605: mipsel-linux-g++ -c -g -O2 -std=c++11  conftest.cpp >&5
+configure:13605: /opt/gcw0-toolchain/usr/bin/mipsel-linux-g++ -c  -std=c++11 -D_GLIBCXX_USE_C99 conftest.cpp >&5
 configure:13605: $? = 0
-configure:13605: mipsel-linux-g++ -c -g -O2 -std=c++11  conftest.cpp >&5
+configure:13605: /opt/gcw0-toolchain/usr/bin/mipsel-linux-g++ -c  -std=c++11 -D_GLIBCXX_USE_C99 conftest.cpp >&5
 conftest.cpp: In function 'int main()':
 conftest.cpp:27:61: error: size of array 'test_array' is negative
  static int test_array [1 - 2 * !((__GNUC_PATCHLEVEL__) <= 0)];
@@ -1199,9 +1196,9 @@ configure: failed program was:
 |   ;
 |   return 0;
 | }
-configure:13605: mipsel-linux-g++ -c -g -O2 -std=c++11  conftest.cpp >&5
+configure:13605: /opt/gcw0-toolchain/usr/bin/mipsel-linux-g++ -c  -std=c++11 -D_GLIBCXX_USE_C99 conftest.cpp >&5
 configure:13605: $? = 0
-configure:13614: mipsel-linux-g++ -c -g -O2 -std=c++11  conftest.cpp >&5
+configure:13614: /opt/gcw0-toolchain/usr/bin/mipsel-linux-g++ -c  -std=c++11 -D_GLIBCXX_USE_C99 conftest.cpp >&5
 conftest.cpp: In function 'int main()':
 conftest.cpp:27:35: error: '__clang_major__' was not declared in this scope
  static int test_array [1 - 2 * !((__clang_major__) >= 0)];
@@ -1244,7 +1241,7 @@ configure: failed program was:
 |   ;
 |   return 0;
 | }
-configure:13614: mipsel-linux-g++ -c -g -O2 -std=c++11  conftest.cpp >&5
+configure:13614: /opt/gcw0-toolchain/usr/bin/mipsel-linux-g++ -c  -std=c++11 -D_GLIBCXX_USE_C99 conftest.cpp >&5
 conftest.cpp: In function 'int main()':
 conftest.cpp:27:35: error: '__clang_major__' was not declared in this scope
  static int test_array [1 - 2 * !((__clang_major__) < 0)];
@@ -1287,7 +1284,7 @@ configure: failed program was:
 |   ;
 |   return 0;
 | }
-configure:13620: mipsel-linux-g++ -c -g -O2 -std=c++11  conftest.cpp >&5
+configure:13620: /opt/gcw0-toolchain/usr/bin/mipsel-linux-g++ -c  -std=c++11 -D_GLIBCXX_USE_C99 conftest.cpp >&5
 conftest.cpp: In function 'int main()':
 conftest.cpp:27:35: error: '__clang_minor__' was not declared in this scope
  static int test_array [1 - 2 * !((__clang_minor__) >= 0)];
@@ -1330,7 +1327,7 @@ configure: failed program was:
 |   ;
 |   return 0;
 | }
-configure:13620: mipsel-linux-g++ -c -g -O2 -std=c++11  conftest.cpp >&5
+configure:13620: /opt/gcw0-toolchain/usr/bin/mipsel-linux-g++ -c  -std=c++11 -D_GLIBCXX_USE_C99 conftest.cpp >&5
 conftest.cpp: In function 'int main()':
 conftest.cpp:27:35: error: '__clang_minor__' was not declared in this scope
  static int test_array [1 - 2 * !((__clang_minor__) < 0)];
@@ -1373,7 +1370,7 @@ configure: failed program was:
 |   ;
 |   return 0;
 | }
-configure:13626: mipsel-linux-g++ -c -g -O2 -std=c++11  conftest.cpp >&5
+configure:13626: /opt/gcw0-toolchain/usr/bin/mipsel-linux-g++ -c  -std=c++11 -D_GLIBCXX_USE_C99 conftest.cpp >&5
 conftest.cpp: In function 'int main()':
 conftest.cpp:27:35: error: '__clang_patchlevel__' was not declared in this scope
  static int test_array [1 - 2 * !((__clang_patchlevel__) >= 0)];
@@ -1416,7 +1413,7 @@ configure: failed program was:
 |   ;
 |   return 0;
 | }
-configure:13626: mipsel-linux-g++ -c -g -O2 -std=c++11  conftest.cpp >&5
+configure:13626: /opt/gcw0-toolchain/usr/bin/mipsel-linux-g++ -c  -std=c++11 -D_GLIBCXX_USE_C99 conftest.cpp >&5
 conftest.cpp: In function 'int main()':
 conftest.cpp:27:35: error: '__clang_patchlevel__' was not declared in this scope
  static int test_array [1 - 2 * !((__clang_patchlevel__) < 0)];
@@ -1512,7 +1509,7 @@ configure:14624: $PKG_CONFIG --exists --print-errors "sdl2 >= $min_sdl_version"
 configure:14627: $? = 0
 configure:14665: result: yes
 configure:14915: checking for library containing sqrt
-configure:14946: mipsel-linux-g++ -o conftest -g -O2 -std=c++11  -L/opt/gcw0-toolchain/usr/mipsel-gcw0-linux-uclibc/sysroot/opt/gcw0-toolchain/usr/mipsel-gcw0-linux-uclibc/sysroot/usr/lib -llua conftest.cpp  >&5
+configure:14946: /opt/gcw0-toolchain/usr/bin/mipsel-linux-g++ -o conftest  -std=c++11 -D_GLIBCXX_USE_C99 -L/opt/gcw0-toolchain/usr/mipsel-gcw0-linux-uclibc/sysroot/opt/gcw0-toolchain/usr/mipsel-gcw0-linux-uclibc/sysroot/usr/lib -llua conftest.cpp  >&5
 configure:14946: $? = 0
 configure:14963: result: none required
 configure:14976: checking for zlib
@@ -1522,9 +1519,10 @@ configure:15000: $PKG_CONFIG --exists --print-errors "zlib"
 configure:15003: $? = 0
 configure:15041: result: yes
 configure:15046: checking for library containing pthread_create
-configure:15077: mipsel-linux-g++ -o conftest -g -O2 -std=c++11  -L/opt/gcw0-toolchain/usr/mipsel-gcw0-linux-uclibc/sysroot/opt/gcw0-toolchain/usr/mipsel-gcw0-linux-uclibc/sysroot/usr/lib -llua conftest.cpp  >&5
-/tmp/ccNaamcw.o:/opt/love-rg350/conftest.cpp:34: undefined reference to `pthread_create'
-/tmp/ccNaamcw.o:/opt/love-rg350/conftest.cpp:34: undefined reference to `pthread_create'
+configure:15077: /opt/gcw0-toolchain/usr/bin/mipsel-linux-g++ -o conftest  -std=c++11 -D_GLIBCXX_USE_C99 -L/opt/gcw0-toolchain/usr/mipsel-gcw0-linux-uclibc/sysroot/opt/gcw0-toolchain/usr/mipsel-gcw0-linux-uclibc/sysroot/usr/lib -llua conftest.cpp  >&5
+/tmp/ccAGRfLa.o: In function `main':
+conftest.cpp:(.text+0x1c): undefined reference to `pthread_create'
+conftest.cpp:(.text+0x24): undefined reference to `pthread_create'
 collect2: error: ld returned 1 exit status
 configure:15077: $? = 1
 configure: failed program was:
@@ -1565,7 +1563,7 @@ configure: failed program was:
 |   ;
 |   return 0;
 | }
-configure:15077: mipsel-linux-g++ -o conftest -g -O2 -std=c++11  -L/opt/gcw0-toolchain/usr/mipsel-gcw0-linux-uclibc/sysroot/opt/gcw0-toolchain/usr/mipsel-gcw0-linux-uclibc/sysroot/usr/lib -llua conftest.cpp -lpthread   >&5
+configure:15077: /opt/gcw0-toolchain/usr/bin/mipsel-linux-g++ -o conftest  -std=c++11 -D_GLIBCXX_USE_C99 -L/opt/gcw0-toolchain/usr/mipsel-gcw0-linux-uclibc/sysroot/opt/gcw0-toolchain/usr/mipsel-gcw0-linux-uclibc/sysroot/usr/lib -llua conftest.cpp -lpthread   >&5
 configure:15077: $? = 0
 configure:15094: result: -lpthread
 configure:15110: checking for openal
@@ -1599,9 +1597,10 @@ configure:15432: $PKG_CONFIG --exists --print-errors "theoradec"
 configure:15435: $? = 0
 configure:15473: result: yes
 configure:15554: checking for library containing mpg123_open_feed
-configure:15585: mipsel-linux-g++ -o conftest -g -O2 -std=c++11  -L/opt/gcw0-toolchain/usr/mipsel-gcw0-linux-uclibc/sysroot/opt/gcw0-toolchain/usr/mipsel-gcw0-linux-uclibc/sysroot/usr/lib -llua conftest.cpp -lpthread  >&5
-/tmp/cczab3uD.o:/opt/love-rg350/conftest.cpp:34: undefined reference to `mpg123_open_feed'
-/tmp/cczab3uD.o:/opt/love-rg350/conftest.cpp:34: undefined reference to `mpg123_open_feed'
+configure:15585: /opt/gcw0-toolchain/usr/bin/mipsel-linux-g++ -o conftest  -std=c++11 -D_GLIBCXX_USE_C99 -L/opt/gcw0-toolchain/usr/mipsel-gcw0-linux-uclibc/sysroot/opt/gcw0-toolchain/usr/mipsel-gcw0-linux-uclibc/sysroot/usr/lib -llua conftest.cpp -lpthread  >&5
+/tmp/ccqurM9d.o: In function `main':
+conftest.cpp:(.text+0x1c): undefined reference to `mpg123_open_feed'
+conftest.cpp:(.text+0x24): undefined reference to `mpg123_open_feed'
 collect2: error: ld returned 1 exit status
 configure:15585: $? = 1
 configure: failed program was:
@@ -1642,17 +1641,17 @@ configure: failed program was:
 |   ;
 |   return 0;
 | }
-configure:15585: mipsel-linux-g++ -o conftest -g -O2 -std=c++11  -L/opt/gcw0-toolchain/usr/mipsel-gcw0-linux-uclibc/sysroot/opt/gcw0-toolchain/usr/mipsel-gcw0-linux-uclibc/sysroot/usr/lib -llua conftest.cpp -lmpg123  -lpthread  >&5
+configure:15585: /opt/gcw0-toolchain/usr/bin/mipsel-linux-g++ -o conftest  -std=c++11 -D_GLIBCXX_USE_C99 -L/opt/gcw0-toolchain/usr/mipsel-gcw0-linux-uclibc/sysroot/opt/gcw0-toolchain/usr/mipsel-gcw0-linux-uclibc/sysroot/usr/lib -llua conftest.cpp -lmpg123  -lpthread  >&5
 configure:15585: $? = 0
 configure:15602: result: -lmpg123
 configure:15612: checking for library containing mpg123_seek_64
-configure:15643: mipsel-linux-g++ -o conftest -g -O2 -std=c++11  -L/opt/gcw0-toolchain/usr/mipsel-gcw0-linux-uclibc/sysroot/opt/gcw0-toolchain/usr/mipsel-gcw0-linux-uclibc/sysroot/usr/lib -llua conftest.cpp -lmpg123 -lpthread  >&5
+configure:15643: /opt/gcw0-toolchain/usr/bin/mipsel-linux-g++ -o conftest  -std=c++11 -D_GLIBCXX_USE_C99 -L/opt/gcw0-toolchain/usr/mipsel-gcw0-linux-uclibc/sysroot/opt/gcw0-toolchain/usr/mipsel-gcw0-linux-uclibc/sysroot/usr/lib -llua conftest.cpp -lmpg123 -lpthread  >&5
 configure:15643: $? = 0
 configure:15660: result: none required
 configure:15770: checking for socklen_t
-configure:15770: mipsel-linux-g++ -c -g -O2 -std=c++11  conftest.cpp >&5
+configure:15770: /opt/gcw0-toolchain/usr/bin/mipsel-linux-g++ -c  -std=c++11 -D_GLIBCXX_USE_C99 conftest.cpp >&5
 configure:15770: $? = 0
-configure:15770: mipsel-linux-g++ -c -g -O2 -std=c++11  conftest.cpp >&5
+configure:15770: /opt/gcw0-toolchain/usr/bin/mipsel-linux-g++ -c  -std=c++11 -D_GLIBCXX_USE_C99 conftest.cpp >&5
 conftest.cpp: In function 'int main()':
 conftest.cpp:30:23: error: expected primary-expression before ')' token
  if (sizeof ((socklen_t)))
@@ -1724,6 +1723,7 @@ config.status:1293: creating platform/unix/debian/control
 config.status:1293: creating platform/unix/debian/changelog
 config.status:1293: creating platform/unix/debian/rules
 config.status:1293: creating config.h
+config.status:1474: config.h is unchanged
 config.status:1522: executing depfiles commands
 config.status:1522: executing libtool commands
 
@@ -1741,16 +1741,16 @@ ac_cv_env_CC_set=set
 ac_cv_env_CC_value=/opt/gcw0-toolchain/usr/bin/mipsel-linux-gcc
 ac_cv_env_CFLAGS_set=set
 ac_cv_env_CFLAGS_value='-Wall -mips32 -O3 -Wextra -fthread-jumps -fexpensive-optimizations -ffast-math -I/opt/gcw0-toolchain/usr/mipsel-gcw0-linux-uclibc/sysroot/opt/gcw0-toolchain/usr/mipsel-gcw0-linux-uclibc/sysroot/usr/include/lua'
-ac_cv_env_CPPFLAGS_set=
-ac_cv_env_CPPFLAGS_value=
+ac_cv_env_CPPFLAGS_set=set
+ac_cv_env_CPPFLAGS_value=-D_GLIBCXX_USE_C99
 ac_cv_env_CPP_set=
 ac_cv_env_CPP_value=
 ac_cv_env_CXXCPP_set=
 ac_cv_env_CXXCPP_value=
-ac_cv_env_CXXFLAGS_set=
+ac_cv_env_CXXFLAGS_set=set
 ac_cv_env_CXXFLAGS_value=
-ac_cv_env_CXX_set=
-ac_cv_env_CXX_value=
+ac_cv_env_CXX_set=set
+ac_cv_env_CXX_value=/opt/gcw0-toolchain/usr/bin/mipsel-linux-g++
 ac_cv_env_LDFLAGS_set=set
 ac_cv_env_LDFLAGS_value='-L/opt/gcw0-toolchain/usr/mipsel-gcw0-linux-uclibc/sysroot/opt/gcw0-toolchain/usr/mipsel-gcw0-linux-uclibc/sysroot/usr/lib -llua'
 ac_cv_env_LIBS_set=
@@ -1827,8 +1827,7 @@ ac_cv_prog_AR=mipsel-linux-ar
 ac_cv_prog_AWK=gawk
 ac_cv_prog_CC=/opt/gcw0-toolchain/usr/bin/mipsel-linux-gcc
 ac_cv_prog_CPP='/opt/gcw0-toolchain/usr/bin/mipsel-linux-gcc -E'
-ac_cv_prog_CXX=mipsel-linux-g++
-ac_cv_prog_CXXCPP='mipsel-linux-g++ -E'
+ac_cv_prog_CXXCPP='/opt/gcw0-toolchain/usr/bin/mipsel-linux-g++ -E'
 ac_cv_prog_LUA_EXECUTABLE=lua
 ac_cv_prog_OBJCXX=mipsel-linux-g++
 ac_cv_prog_OBJDUMP=mipsel-linux-objdump
@@ -1923,11 +1922,11 @@ CC='/opt/gcw0-toolchain/usr/bin/mipsel-linux-gcc'
 CCDEPMODE='depmode=gcc3'
 CFLAGS='-Wall -mips32 -O3 -Wextra -fthread-jumps -fexpensive-optimizations -ffast-math -I/opt/gcw0-toolchain/usr/mipsel-gcw0-linux-uclibc/sysroot/opt/gcw0-toolchain/usr/mipsel-gcw0-linux-uclibc/sysroot/usr/include/lua'
 CPP='/opt/gcw0-toolchain/usr/bin/mipsel-linux-gcc -E'
-CPPFLAGS=''
-CXX='mipsel-linux-g++'
-CXXCPP='mipsel-linux-g++ -E'
+CPPFLAGS='-D_GLIBCXX_USE_C99'
+CXX='/opt/gcw0-toolchain/usr/bin/mipsel-linux-g++'
+CXXCPP='/opt/gcw0-toolchain/usr/bin/mipsel-linux-g++ -E'
 CXXDEPMODE='depmode=gcc3'
-CXXFLAGS='-g -O2 -std=c++11'
+CXXFLAGS=' -std=c++11'
 CYGPATH_W='echo'
 DEFS='-DHAVE_CONFIG_H'
 DEPDIR='.deps'
@@ -2204,21 +2203,3 @@ zlib_LIBS='-L/opt/gcw0-toolchain/usr/mipsel-gcw0-linux-uclibc/sysroot/usr/lib -l
 #define LOVE_BUILD_EXE /**/
 
 configure: exit 0
-
-## ---------------------- ##
-## Running config.status. ##
-## ---------------------- ##
-
-This file was extended by love config.status 11.3, which was
-generated by GNU Autoconf 2.69.  Invocation command line was
-
-  CONFIG_FILES    = 
-  CONFIG_HEADERS  = 
-  CONFIG_LINKS    = 
-  CONFIG_COMMANDS = 
-  $ ./config.status config.h
-
-on bbruno5-VirtualBox
-
-config.status:1293: creating config.h
-config.status:1474: config.h is unchanged
