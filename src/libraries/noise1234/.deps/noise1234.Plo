@@ -1,1 +1,4 @@
-# dummy
+libraries/noise1234/noise1234.lo: libraries/noise1234/noise1234.cpp \
+ libraries/noise1234/noise1234.h
+
+libraries/noise1234/noise1234.h:

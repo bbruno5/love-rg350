@@ -1520,7 +1520,7 @@ configure:15003: $? = 0
 configure:15041: result: yes
 configure:15046: checking for library containing pthread_create
 configure:15077: /opt/gcw0-toolchain/usr/bin/mipsel-linux-g++ -o conftest  -std=c++11 -D_GLIBCXX_USE_C99 -L/opt/gcw0-toolchain/usr/mipsel-gcw0-linux-uclibc/sysroot/opt/gcw0-toolchain/usr/mipsel-gcw0-linux-uclibc/sysroot/usr/lib -llua conftest.cpp  >&5
-/tmp/ccYD4mCm.o: In function `main':
+/tmp/ccLaN2GN.o: In function `main':
 conftest.cpp:(.text+0x1c): undefined reference to `pthread_create'
 conftest.cpp:(.text+0x24): undefined reference to `pthread_create'
 collect2: error: ld returned 1 exit status
@@ -1598,7 +1598,7 @@ configure:15435: $? = 0
 configure:15473: result: yes
 configure:15554: checking for library containing mpg123_open_feed
 configure:15585: /opt/gcw0-toolchain/usr/bin/mipsel-linux-g++ -o conftest  -std=c++11 -D_GLIBCXX_USE_C99 -L/opt/gcw0-toolchain/usr/mipsel-gcw0-linux-uclibc/sysroot/opt/gcw0-toolchain/usr/mipsel-gcw0-linux-uclibc/sysroot/usr/lib -llua conftest.cpp -lpthread  >&5
-/tmp/ccn6oLYr.o: In function `main':
+/tmp/ccN6iAUW.o: In function `main':
 conftest.cpp:(.text+0x1c): undefined reference to `mpg123_open_feed'
 conftest.cpp:(.text+0x24): undefined reference to `mpg123_open_feed'
 collect2: error: ld returned 1 exit status
