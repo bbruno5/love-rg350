@@ -39,7 +39,9 @@
 #if defined(LOVE_ANDROID)
 #include "common/android.h"
 #elif defined(LOVE_LINUX)
-#include <spawn.h>
+#include <stdlib.h>
+#include <unistd.h>
+#include <sys/wait.h>
 #endif
 
 namespace love
@@ -101,22 +103,31 @@ bool System::openURL(const std::string &url) const
 
 #elif defined(LOVE_LINUX)
 
-	pid_t pid;
-	const char *argv[] = {"xdg-open", url.c_str(), nullptr};
+	// Spawn a child process, which we'll replace with xdg-open.
+	pid_t pid = vfork();
 
-	// Note: at the moment this process inherits our file descriptors.
-	// Note: the below const_cast is really ugly as well.
-	if (posix_spawnp(&pid, "xdg-open", nullptr, nullptr, const_cast<char **>(argv), environ) != 0)
-		return false;
+	if (pid == 0) // Child process.
+	{
+		// Replace the child process with xdg-open and pass in the URL.
+		execlp("xdg-open", "xdg-open", url.c_str(), nullptr);
 
-	// Check if xdg-open already completed (or failed.)
-	int status = 0;
-	if (waitpid(pid, &status, WNOHANG) > 0)
-		return (status == 0);
+		// exec will only return if it errored, so we should exit with non-zero.
+		_exit(1);
+	}
+	else if (pid > 0) // Parent process.
+	{
+		// Wait for xdg-open to complete (or fail.)
+		int status = 0;
+		if (waitpid(pid, &status, 0) == pid)
+			return (status == 0);
+		else
+			return false;
+	}
 	else
-		// We can't tell what actually happens without waiting for
-		// the process to finish, which could take forever (literally).
-		return true;
+	{
+		// vfork() failed.
+		return false;
+	}
 
 #elif defined(LOVE_WINDOWS)
 
